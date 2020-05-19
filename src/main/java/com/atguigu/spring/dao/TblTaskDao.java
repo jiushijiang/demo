@@ -18,4 +18,6 @@ public interface TblTaskDao {
     int updateByPrimaryKey(TblTask record);
 
     TblTask getTaskTimeById();
+
+    int getMaxId();
 }

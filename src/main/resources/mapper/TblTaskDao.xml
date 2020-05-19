@@ -72,4 +72,8 @@
   <select id="getTaskTimeById" resultMap="BaseResultMap">
    SELECT recv_time  FROM `tbl_task`  WHERE recv_time >SYSDATE() ORDER BY recv_time LIMIT 1
   </select>
+
+  <select id="getMaxId" resultType="java.lang.Integer">
+    select max(id)+1 from tbl_task
+  </select>
 </mapper>
