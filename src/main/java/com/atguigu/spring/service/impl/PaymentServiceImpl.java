@@ -67,17 +67,13 @@ public class PaymentServiceImpl implements PaymentService {
     public void test() {
 
 
-        try {
 
-            int i=10/0;
-
-        }catch (RuntimeException e){
-
-            e.printStackTrace();
-        }
 
 
     }
+
+
+
 
 
 }
