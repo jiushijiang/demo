@@ -27,7 +27,7 @@ public class PaymentController {
 
         int result=paymentService.create(payment);
 
-        log.info("**************"+result+"*****************");
+        log.info("*************"+result+"****************");
 
         if (result>0){
             return new CommonResult(200,"插入数据库成功,port:"+port,result);
