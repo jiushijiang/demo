@@ -40,7 +40,6 @@ public class EnumServiceImpl implements EnumService {
 
     }
 
-    
     @Override
     public int insert(TblTask record) {
 
